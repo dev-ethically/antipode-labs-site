@@ -7,8 +7,9 @@
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
 <meta name="author" content="Antipode Labs Ltd">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=Manrope:wght@400;500;600&display=swap">
 <style>
+@font-face{font-family:"Manrope";font-style:normal;font-weight:400 600;font-display:swap;src:url(fonts/manrope-latin.woff2) format("woff2")}
+@font-face{font-family:"Space Grotesk";font-style:normal;font-weight:400 600;font-display:swap;src:url(fonts/space-grotesk-latin.woff2) format("woff2")}
 :root{--fg:#3b3f45;--mut:#6b7076;--line:#e3e5e8;--tint:#f6f7f8}
 *{box-sizing:border-box}
 body{margin:0;min-height:100vh;padding:56px 24px;background:#fff;color:var(--fg);font-family:Manrope,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
@@ -28,6 +29,9 @@ a{color:var(--fg);text-decoration:none;border-bottom:1px solid var(--fg);padding
 a:hover{color:var(--mut);border-bottom-color:var(--mut)}
 footer{border-top:1px solid var(--line);padding-top:22px;font-size:12px;line-height:1.7;color:var(--mut)}
 footer p{margin:0}
+footer a{color:var(--mut);border-bottom-color:var(--line)}
+footer a:hover{color:var(--fg);border-bottom-color:var(--fg)}
+footer .links{margin-top:14px}
 </style></head><body>
 <div class="wrap">
 <header>
@@ -42,14 +46,13 @@ footer p{margin:0}
 <p class="body">An iOS app for keeping track of your skin over time. More details will appear here when it launches on the App Store.</p>
 </div>
 </section>
-<section>
-<h2>Contact</h2>
-<p class="body">For support, questions or privacy requests, email <a href="mailto:support@antipode-labs.online">support@antipode-labs.online</a>.</p>
-</section>
 <footer>
 <p>Antipode Labs Ltd</p>
 <p>82A James Carter Road, Mildenhall, IP28 7DE</p>
+<p>Phone: <a href="tel:+442045692252">+44 204 569 2252</a></p>
+<p>Email: <a href="mailto:support@antipode-labs.com">support@antipode-labs.com</a></p>
 <p>Company Number: 17584391 · Registered in England and Wales</p>
+<p class="links"><a href="privacy.html">Privacy Policy</a></p>
 </footer>
 </div>
 </body></html>
